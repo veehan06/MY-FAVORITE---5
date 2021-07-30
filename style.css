@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    background: background: rgb(219, 191, 225);
+    background: linear-gradient(90deg, rgba(219, 191, 225, 1) 35%, rgba(145, 201, 248, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 50px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 450;
+}
+
+#hobby {
+    font-size: 100px;
+    font-family: 'Courgette', cursive;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+.links {
+    list-style: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.links:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.links:active {
+    background-color: #555555;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.links {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.line {
+    margin: 8px auto;
+    width: 200px;
+    height: 6px;
+    background-color: black;
+}
+
+,
+#enidblyton {
+    width: 315px;
+    height: 104px;
+}
+
+#img1:hover {
+    transform: scale(0.9);
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+#contact {
+    background-color: cyan;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h1 {
+    display: inline;
+}
